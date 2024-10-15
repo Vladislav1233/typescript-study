@@ -23,5 +23,3 @@ function transferEurToUsd(
 }
 
 transferEurToUsd(true, 500, 1.05);
-
-export {}; // https://stackoverflow.com/questions/35758584/cannot-redeclare-block-scoped-variable
