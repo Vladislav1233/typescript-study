@@ -1,23 +1,24 @@
 // Задание описано под решением
 
 // =========== РЕШЕНИЕ ===========
+type ValidAmount = "empty" | number;
 
 interface ClothesWarehouse {
-  jackets: "empty" | number;
-  hats: "empty" | number;
-  socks: "empty" | number;
-  pants: "empty" | number;
+  jackets: ValidAmount;
+  hats: ValidAmount;
+  socks: ValidAmount;
+  pants: ValidAmount;
 }
 
 interface StationeryWarehouse {
-  scissors: "empty" | number;
+  scissors: ValidAmount;
   paper: "empty" | boolean;
 }
 
 interface AppliancesWarehouse {
-  dishwashers: "empty" | number;
-  cookers: "empty" | number;
-  mixers: "empty" | number;
+  dishwashers: ValidAmount;
+  cookers: ValidAmount;
+  mixers: ValidAmount;
 }
 
 interface TotalWarehouse
